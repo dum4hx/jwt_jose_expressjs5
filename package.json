@@ -1,0 +1,30 @@
+{
+  "name": "jwt_jose_expressjs5",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/dum4hx/jwt_jose_expressjs5#readme",
+  "bugs": {
+    "url": "https://github.com/dum4hx/jwt_jose_expressjs5/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dum4hx/jwt_jose_expressjs5.git"
+  },
+  "license": "ISC",
+  "author": "\"Santiago Duque\"",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^5.2.1",
+    "jose": "^6.1.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.0.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  }
+}
