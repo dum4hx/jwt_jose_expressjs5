@@ -4,7 +4,7 @@ import express, {
   type Response,
 } from "express";
 
-import error_logger from "./middleware/error_logger.js";
+import error_logger from "./middleware/error_logger.ts";
 
 // Get env variables
 const PORT = process.env.PORT || 8080;
@@ -18,5 +18,5 @@ app.get("/", (req: Request, res: Response, next: NextFunction) => {
 // Use error middleware
 app.use(error_logger);
 app.listen(PORT, () =>
-  console.log(`Server running on port ${PORT}. http://localhost:${PORT}/`)
+  console.log(`Server running on port ${PORT}. http://localhost:${PORT}/`),
 );
